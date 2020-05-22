@@ -16,6 +16,7 @@ curl whatsmyip.mydomain.com
 
 It should preferably run on a server that's reachable over the Internet.
 Any client requesting http://serveraddress:8080/ will receive its IP address (IPv4 or IPv6) back from the server.
+**KEEP IN MIND** that if you are hosting this locally on the same subnet, your router will most likely route your request directly to your server (or your current machine) resulting in the server reporting your gateway ip as your current public ip.
 
 ### OCI Container
 
